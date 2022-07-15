@@ -2,6 +2,10 @@
 
 This project aims to create an artificial intelligence model for the [Snake](snake-wiki) game. The goal of the snake is to eat the food continuosly. The snake dies on hitting the boundaries or hitting itself. The project is based on Reinforcement Learning.
 
+# Demo Video
+
+https://www.youtube.com/watch?v=XwbY4fN6RZw
+
 # Algorithm
 
 We have snake and food on the board randomly placed.
