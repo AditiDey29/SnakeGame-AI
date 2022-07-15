@@ -28,7 +28,7 @@ We have snake and food on the board randomly placed.
   * [0,0,1]: Turn Left
   
 3. The model is a neural network with 2 hidden layers as shown in the following figure:
-<img height="40" src="15507.jpg">
+<p align="center"> <img height="400" src="15507.jpg"></p>
   
   
 4. After executing the action we calculate the reward. Rewards are defined as below:
