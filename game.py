@@ -41,7 +41,7 @@ class SnakeGameAI:
     def reset(self):
         # init gamestate
         self.direction = Direction.RIGHT
-        self.SPEED = 5
+        self.SPEED = 70
 
         # Snake is a list with 3 initial values. Head is the front of this list.
         self.head = Point(self.w / 2, self.h / 2)
