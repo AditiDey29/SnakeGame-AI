@@ -5,7 +5,7 @@ This project aims to create an artificial intelligence model for the [Snake](sna
 # Algorithm
 
 We have snake and food on the board randomly placed.
-1. We calculate the state of the snake using the 11 values and if any of the conditions is true then set that value to zero else set one. The 11 state values (in order) are as follows:
+1. We calculate the state of the snake using the 11 values and if any of the conditions is true then set that value to one else set zero. The 11 state values (in order) are as follows:
   * danger straight
   * danger right
   * danger left
