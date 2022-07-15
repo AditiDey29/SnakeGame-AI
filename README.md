@@ -19,7 +19,12 @@ We have snake and food on the board randomly placed.
   * food up
   * food down
 
-2. After getting these states, the agent would pass this to the model and get the next move to perform.
+2. After getting these states, the agent would pass this to the model and get the action to perform. The action can have the following three values:
+  * [1,0,0]: Go Striaght
+  * [0,1,0]: Turn Right
+  * [0,0,1]: Turn Left
+  
+  
 3. After executing the next state calculate the reward. Rewards are defined as below:
   * Eating Food: +10
   * Dying or not eating food for too long: -10
