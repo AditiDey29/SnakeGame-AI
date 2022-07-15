@@ -17,7 +17,7 @@ class Agent:
         self.epsilon = 0  # randomness
         self.gamma = 0.8  # discount rate (smaller than one)
         self.memory = deque(maxlen=MAX_MEMORY)  # popleft()
-        self.model = Linear_QNet(11, 256, 3)
+        self.model = Linear_QNet(11, 128, 256, 3)
         # input layer size = state list size = 11, output layer size = action size = 3,
         # hidden layer size can be played with
         self.trainer = QTrainer(self.model, lr=LR, gamma=self.gamma)
@@ -92,7 +92,7 @@ class Agent:
 
     def get_action(self, state):
         # random moves: tradeoff exploration / exploitation
-        self.epsilon = 80 - self.n_games  # as number of games increases, epsilon decreases.
+        self.epsilon = 100 - self.n_games  # as number of games increases, epsilon decreases.
         final_move = [0, 0, 0]
         if random.randint(0, 200) < self.epsilon:  # as epsilon decreases, randomness decreases.
             move = random.randint(0, 2)  # random index from 0,1,2
