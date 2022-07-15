@@ -27,13 +27,16 @@ We have snake and food on the board randomly placed.
   * [0,1,0]: Turn Right
   * [0,0,1]: Turn Left
   
+3. The model is a neural network with 2 hidden layers as shown in the following figure:
+<img height="40" src="15507.jpg">
   
-3. After executing the action we calculate the reward. Rewards are defined as below:
+  
+4. After executing the action we calculate the reward. Rewards are defined as below:
   * Eating Food: +10
   * Dying or not eating food for too long: -10
   * Else: 0
 
-4. Finally we update the Q value using the Bellman Equation. Q value represents the quality of the action.
+5. Finally we update the Q value using the Bellman Equation. Q value represents the quality of the action.
 
 
 
