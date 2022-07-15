@@ -24,7 +24,7 @@ We have snake and food on the board randomly placed.
   * [0,0,1]: Turn Left
   
   
-3. After executing the next state we calculate the reward. Rewards are defined as below:
+3. After executing the action we calculate the reward. Rewards are defined as below:
   * Eating Food: +10
   * Dying or not eating food for too long: -10
   * Else: 0
