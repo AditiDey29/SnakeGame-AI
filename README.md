@@ -9,11 +9,10 @@ We have snake and food on the board randomly placed.
   * danger straight
   * danger right
   * danger left
-  * moving direction left
-  * moving direction right
-  * moving direction left
-  * moving direction up
-  * moving direction down
+  * current moving direction left
+  * current moving direction right
+  * current moving direction up
+  * current moving direction down
   * food left
   * food right
   * food up
